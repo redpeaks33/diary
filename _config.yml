@@ -1,0 +1,18 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - script
+  - src
+
+remote_theme: marella/jekyll-theme-documentation
+
+permalink: pretty
+
+nav:
+  - 資産:
+    - 資産運用の基本: doc/investment/conclusion
+    - 経済的自由の基本: doc/investment/fire
+    - 決算: doc/investment/account
